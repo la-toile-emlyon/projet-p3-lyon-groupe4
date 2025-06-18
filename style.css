@@ -1,4 +1,427 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Style Global */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* 1. Variables de base */
+:root {
+  --font-base: 'Inter', sans-serif;
+  --color-primary: #1651BE;
+  --color-text: #1A1A1A;
+  --color-muted: #666666;
+  --color-bg: #FFFFFF;
+  --color-light-gray: #F7F9FB;
+  --font-size-base: 18px;
+}
+
+/* 2. Reset minimal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #0C012A;
+  list-style: none;
+}
+
+body {
+font-family: var(--font-base);
+font-size: var(--font-size-base);
+line-height: var(--line-height-base);
+color: var(--color-text);
+background-color: var(--color-bg);
+}
+
+/* 4. Titres */
+h1, h2, h3 {
+  color: #173e85;
+}
+
+h1 strong, h2 strong, h3 strong {
+  color: var(--color-primary);
+}
+h1 {
+font-size: 42px;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 1rem;
+}
+
+h2 {
+font-size: 32px;
+font-weight: 600;
+line-height: 1.3;
+margin-bottom: 0.75rem;
+}
+
+h3 {
+font-size: 24px;
+font-weight: 600;
+line-height: 1.4;
+margin-bottom: 0.5rem;
+}
+
+/* 5. Paragraphes */
+p {
+margin-bottom: 1rem;
+color: var(--color-text);
+}
+
+/* 6. Boutons */
+.button-primary {
+display: inline-block;
+padding: 16px 32px;
+background-color: var(--color-primary);
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.2s ease;
+width: fit-content;
+margin: auto;
+}
+
+.button-primary:hover {
+background-color: #0f3c91; /* Variante plus foncée */
+}
+
+/* 7. Liens */
+a {
+color: var(--color-primary);
+text-decoration: underline;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+/* 8. Sections optionnelles */
+.section {
+padding: 4rem 1rem;
+}
+
+.section-light {
+background-color: var(--color-light-gray);
+}
+
+
+html{
+  font-size: 18px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+  /* Nav */
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 40px;
+    gap: 40px;
+}
+.logo{
+    width: 105px;
+}
+
+
+.ulnav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    a{
+      color: #08386de3;
+
+    }
+}
+.section-padding-large{
+  padding-block: 64px;
+}
+ /* HERO */
+#hero {
+    background: linear-gradient(#64646440, #0d2d68a1), url(hero-pic.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    .container{
+      margin: auto;
+    }
+    .content {
+      height: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      h1{
+        max-width: 580px;
+        color: #eaf2ff;
+      }
+      p{
+        color: #d9e1ed;
+      }
+      a{
+        margin-top: 12px;
+      }
+    }
+}
+
+#heroimg {
+    width: 50%;
+    height: 100%;
+    max-height: 50vh;
+}
+
+
+#mission {
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ /* Problème */
+
+.problems {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h2{
+      margin-bottom: 64px;
+    }
+    p{
+      text-wrap-style: balance;
+    }
+    .container{
+      .content{
+        display: flex;
+        gap: 28px;
+      }
+    }
+  }
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+#divcard {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    width: 80%;
+    gap: 50px;
+    padding-top: 2%;
+    align-items: baseline;
+}
+
+
+
+.problemCard img {
+    width: 50%;
+    height: 50%;
+}
+
+  /* Solution */
+
+#solution{
+  img:nth-child(1){
+      width: 66%;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    .content-right{
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      img{
+        height: 320px;
+        width: fit-content;
+      }
+      .column-right{
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+
+}
+#card-solution{
+    display: flex;
+    flex-direction: column;
+}
+ /* Avantage */
+
+#confiance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #C8E5F8;
+    border-radius: 30px;
+    margin: 50px
+}
+
+#confiance h4 {
+    font-size: xx-large;
+        padding: 45px;
+}
+
+#group-card-confiance {
+  display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    width: 80%;
+    gap: 50px;
+    align-items: baseline;
+}
+
+
+.card-confiance {
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+}
+
+.card-confiance h5 {
+    margin: 20px;
+    font-size: x-large;
+}
+
+
+  /* Formulaire */
+
+
+#formulaire h3{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 40PX;
+}
+#inputformulaire{
+    display: flex;
+    justify-content: center;
+    padding-top: 16PX;
+}
+#email{
+    border-radius: 40PX;
+    width: 400PX;
+    height: 40PX;
+    border: hidden;
+    box-shadow: 0px 0PX 11PX -6PX;
+    margin-right: 21PX;
+}
+#button{
+   color: white;
+    text-align: center;
+    width: 120PX;
+    background-color: rgba(22, 81, 190, 1);
+    border-radius: 61px;
+    border: hidden;
+
+}
+#formulaire{
+    display: inline-flex;
+    height: 170PX;
+    box-shadow: 0px 0PX 11PX -6PX;
+    flex-direction: column;
+    justify-content: center;
+    padding: 140PX;
+    border-radius: 40PX;
+}
+#f{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+  /* Footer */
+
+footer{
+    nav{
+        display: flex;
+        }
+    .row2{
+        max-width: fit-content;
+        margin-left: auto;
+        color: #08386de3;
+        font-weight: 100;
+        opacity: .7;
+        align-self: center;
+    }
+}
+
+/* page documentation */
+
+
+#docH1{
+    text-align: center;
+    padding: 40px;
+}
+#doctext{
+    text-align: center;
+    width: 549Px;
+    margin: auto;
+}
+
+
+.SectionExplication {
+
+}
+
+.divExplication1 {
+    display: flex;
+    align-items: center
+}
+
+.SectionExplication1 {
+    display: flex;
+}
+
+.divExplication2{
+    display: flex;
+    align-items: center
+}
+
+.SectionExplication2 {
+    display: flex;
 }
