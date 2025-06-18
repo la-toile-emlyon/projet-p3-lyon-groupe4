@@ -69,16 +69,18 @@ color: var(--color-text);
 /* 6. Boutons */
 .button-primary {
 display: inline-block;
-padding: 0.75rem 1.5rem;
+padding: 16px 32px;
 background-color: var(--color-primary);
 color: #fff;
 font-size: 16px;
 font-weight: 600;
 border: none;
-border-radius: 6px;
+border-radius: 50px;
 cursor: pointer;
 text-decoration: none;
 transition: background-color 0.2s ease;
+width: fit-content;
+margin: auto;
 }
 
 .button-primary:hover {
@@ -107,14 +109,6 @@ background-color: var(--color-light-gray);
 
 html{
   font-size: 18px;
-}
-button {
-    font-size: 20px;
-    background-color: #0C012A;
-    color: white;
-    border-radius: 5px;
-    border-style: none;
-    width: 30%;
 }
 .container{
     max-width: 1200px;
@@ -154,14 +148,34 @@ nav {
 }
  /* HERO */
 #hero {
-    width: 100%;
-    min-height: 50vh;
-    max-height: 50vh;
+    background: linear-gradient(#64646440, #0d2d68a1), url(hero-pic.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #C8E5F8;
-    box-shadow: 1px 5px 5px rgb(162, 162, 162);
+    .container{
+      margin: auto;
+    }
+    .content {
+      height: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      h1{
+        max-width: 580px;
+        color: #eaf2ff;
+      }
+      p{
+        color: #d9e1ed;
+      }
+      a{
+        margin-top: 12px;
+      }
+    }
 }
 
 #heroimg {
@@ -170,14 +184,6 @@ nav {
     max-height: 50vh;
 }
 
-.heroAccueill {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-}
 
 #mission {
     text-align: center;
@@ -200,30 +206,39 @@ nav {
     width: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    h2{
+      margin-bottom: 64px;
+    }
+    p{
+      text-wrap-style: balance;
+    }
+    .container{
+      .content{
+        display: flex;
+        gap: 28px;
+      }
+    }
+  }
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
 }
 
 #divcard {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     width: 80%;
     gap: 50px;
     padding-top: 2%;
+    align-items: baseline;
 }
 
-.problemCard {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    text-align: center;
-    width: 100%;
-    height: 60vh;
-}
+
 
 .problemCard img {
     width: 50%;
@@ -288,10 +303,11 @@ nav {
 #group-card-confiance {
   display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     width: 80%;
     gap: 50px;
+    align-items: baseline;
 }
 
 
@@ -309,6 +325,53 @@ nav {
 .card-confiance h5 {
     margin: 20px;
     font-size: x-large;
+}
+
+
+  /* Formulaire */
+
+
+#formulaire h3{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 40PX;
+}
+#inputformulaire{
+    display: flex;
+    justify-content: center;
+    padding-top: 16PX;
+}
+#email{
+    border-radius: 40PX;
+    width: 400PX;
+    height: 40PX;
+    border: hidden;
+    box-shadow: 0px 0PX 11PX -6PX;
+    margin-right: 21PX;
+}
+#button{
+   color: white;
+    text-align: center;
+    width: 120PX;
+    background-color: rgba(22, 81, 190, 1);
+    border-radius: 61px;
+    border: hidden;
+
+}
+#formulaire{
+    display: inline-flex;
+    height: 170PX;
+    box-shadow: 0px 0PX 11PX -6PX;
+    flex-direction: column;
+    justify-content: center;
+    padding: 140PX;
+    border-radius: 40PX;
+}
+#f{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
   /* Footer */
@@ -332,44 +395,33 @@ footer{
 
 #docH1{
     text-align: center;
+    padding: 40px;
 }
 #doctext{
     text-align: center;
     width: 549Px;
+    margin: auto;
 }
-#formulaire h3{
-    font-size: xx-large;
-    text-align: center;
+
+
+.SectionExplication {
+
 }
-#inputformulaire{
+
+.divExplication1 {
     display: flex;
-    justify-content: center;
+    align-items: center
 }
-#email{
-    border-radius: 40PX;
-    width: 270PX;
-    height: 40PX;
-        border: hidden;
-        box-shadow: 1PX 1PX 4PX 0PX;
-}
-#button{
-   color: white;
-    width: 99PX;
-    background-color: rgba(22, 81, 190, 1);
-    border-radius: 61px;
-        border: hidden;
-        box-shadow: 1PX 1PX 2PX 0PX;
-}
-#formulaire{
-    display: inline-flex
-;
-    height: 170PX;
-    box-shadow: 0PX 0PX 4PX 0PX;
-    flex-direction: column;
-    justify-content: space-around;
-}
-#f{
+
+.SectionExplication1 {
     display: flex;
-    align-items: center;
-    align-content: center;
+}
+
+.divExplication2{
+    display: flex;
+    align-items: center
+}
+
+.SectionExplication2 {
+    display: flex;
 }

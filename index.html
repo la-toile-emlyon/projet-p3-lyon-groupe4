@@ -44,14 +44,19 @@
     </ul>
   </nav>
 
+  <!-- hero section -->
   <section id="hero">
-    <img id="heroimg" src="imgmaisonhero.png" alt="Logement Insalubre  " />
-    <div class="heroAccueill">
-      <h1>APPART PROPRE ET NET SANS PRISE DE TETE</h1>
-      <p>Une rentre régulière sans galère</p>
-      <button>Nous Contacter</button>
+    <!-- <img id="heroimg" src="imgmaisonhero.png" alt="Logement Insalubre  " /> -->
+    <div class="container">
+      <div class="content">
+        <h1>Appartement propre et net Sans prise de tête</h1>
+        <p>Confiez votre bien, on s’occupe du reste. Propreté, suivi, tranquillité.</p>
+        <a class="button-primary" href="#contact-form">Nous Contacter</a>
+      </div>
     </div>
   </section>
+
+
   <!--mission-->
   <section id="mission">
     <h2>Notre Mission</h2>
@@ -62,26 +67,28 @@
   </section>
   <!-- Problème -->
 
-  <section class="problems">
-    <h2>Problèmes</h2>
-    <div id="divcard">
-      <div class="problemCard">
-        <img src="coutderénovation2.svg " alt="Insalubrité dans les logements" />
-        <h3><b>Coûts de rénovation élevés</b></h3>
-        <p>
-          La rénovation complète peut dépasser <b>25 000 €</b>, un montant que peu de ménages peuvent assumer.</p>
-      </div>
-      <div class="problemCard">
-        <img src="ComplexitéAdministrative.svg" alt="Présence de nuisibles" />
-        <h3><b>Complexité administrative</b></h3>
-        <p>
-          Les dispositifs d’aide  sont nombreux mais compliqués : critères variables, interlocuteurs multiples, labellisation <b>RGE obligatoire</b>, processus longs et confus</p>
-      </div>
-      <div class="problemCard">
-        <img src="NormeAdministrative.svg" alt="Isolation thermique ou sonore" />
-        <h3><b>Norme administrative</b></h3>
-        <p>
-           Le refus délibéré d’effectuer les travaux prescrits par un arrêté d’insalubrité ou de péril peut être puni d’une peine maximale <b></b>d’un an d’emprisonnement et de 50 000 € d’amende. </b></p>
+  <section class="problems section-light section-padding-large">
+    <div class="container">
+      <h2>Problèmes</h2>
+      <div class="content">
+        <div class="card">
+          <img src="coutderénovation2.svg " alt="Insalubrité dans les logements" />
+          <h3><b>Coûts de rénovation élevés</b></h3>
+          <p>
+            La rénovation complète peut dépasser <b>25 000 €</b>, un montant que peu de ménages peuvent assumer.</p>
+        </div>
+        <div class="card">
+          <img src="ComplexitéAdministrative.svg" alt="Présence de nuisibles" />
+          <h3><b>Complexité administrative</b></h3>
+          <p>
+            Les dispositifs d’aide  sont nombreux mais compliqués : critères variables, interlocuteurs multiples, labellisation <b>RGE obligatoire</b>, processus longs et confus</p>
+        </div>
+        <div class="card">
+          <img src="NormeAdministrative.svg" alt="Isolation thermique ou sonore" />
+          <h3><b>Norme administrative</b></h3>
+          <p>
+             Le refus délibéré d’effectuer les travaux prescrits par un arrêté d’insalubrité ou de péril peut être puni d’une peine maximale <b></b>d’un an d’emprisonnement et de 50 000 € d’amende. </b></p>
+        </div>
       </div>
     </div>
   </section>
@@ -163,10 +170,10 @@
   <!--formulaire-->
 <div id="f">
 <section id="formulaire">
-      <h3>Vous êtes près a rejoindre M²ey ?</h3>
+      <h3>Vous êtes près a rejoindre M²EY ?</h3>
       <div id="inputformulaire">
         <input type="email" name="email" id="email">
-        <input type="button" value="Nous contacter" id="button" />
+        <input type="button-primary" value="Nous contacter" id="button" />
       </div>
     </section>
 </div>
