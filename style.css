@@ -331,12 +331,17 @@ nav {
   /* Formulaire */
 
 
-#formulaire h3{
+.formulaire h3{
     font-size: xx-large;
     text-align: center;
     margin-bottom: 40PX;
 }
 #inputformulaire{
+    display: flex;
+    justify-content: center;
+    padding-top: 16PX;
+}
+#inputformulaire2{
     display: flex;
     justify-content: center;
     padding-top: 16PX;
@@ -358,7 +363,7 @@ nav {
     border: hidden;
 
 }
-#formulaire{
+.formulaire{
     display: inline-flex;
     height: 170PX;
     box-shadow: 0px 0PX 11PX -6PX;
@@ -366,6 +371,7 @@ nav {
     justify-content: center;
     padding: 140PX;
     border-radius: 40PX;
+    align-items: center;
 }
 #f{
   display: flex;
@@ -424,4 +430,26 @@ footer{
 
 .SectionExplication2 {
     display: flex;
+}
+#SectionPersona{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+.divpersona{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 10%;
+}
+#sectionformulaire{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
