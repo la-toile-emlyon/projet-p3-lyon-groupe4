@@ -371,6 +371,7 @@ nav {
   padding: 140px;
   border-radius: 40px;
   align-items: center;
+  margin-bottom: 5%;
 }
 #f {
   display: flex;
@@ -434,6 +435,14 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 5%;
+  padding: 5%;
+  gap: 20px;
+}
+#SectionPersona p{
+  width: 70%;
+}
+#SectionPersona img{
+  width: 50%;
 }
 .divpersona {
   display: flex;
@@ -442,11 +451,98 @@ footer {
   align-items: center;
   text-align: center;
   gap: 10px;
-  margin-bottom: 10%;
+}
+.divpersona img{
+  box-shadow: 0px 0px 11px -6px;
 }
 #sectionformulaire {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#sectionwireframe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+.divwireframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  gap: 10px;
+  width: 100%;
+}
+.pageswireframe{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  margin-top: 5%;
+}
+
+.pageswireframe img{
+  width: 30%;
+  box-shadow: 0px 0px 11px -6px;
+}
+#sectionprojetsfuturs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+#divgroupprojetsfuturs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+#divprojetsfuturs1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  box-shadow: 0px 0px 11px -6px;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 5%;
+}
+#divprojetsfuturs2{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  box-shadow: 0px 0px 11px -6px;
+  border-radius: 5px;
+  width: 80%;
+}
+
+#divprojetsfuturs1 img{
+  width: 50%;
+}
+#divprojetsfuturs1 p{
+  width: 70%;
+  padding-right: 5%;
+  text-align: left;
+}
+
+#divprojetsfuturs2 img{
+  width: 50%;
+}
+#divprojetsfuturs2 p{
+  width: 40%;
+  padding-left: 5%;
+  text-align: right;
 }
