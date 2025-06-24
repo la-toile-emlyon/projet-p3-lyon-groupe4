@@ -82,13 +82,14 @@ p {
   border-radius: 50px;
   cursor: pointer;
   text-decoration: none;
-  transition: background-color 0.2s ease;
+  transition: 0.5s ease;
   width: fit-content;
   margin: auto;
 }
 
 .button-primary:hover {
   background-color: #0f3c91; /* Variante plus foncée */
+  scale: 1.1;
 }
 
 /* 7. Liens */
@@ -340,11 +341,13 @@ nav {
   display: flex;
   justify-content: center;
   padding-top: 16px;
+  align-items: center;
 }
 #inputformulaire2 {
   display: flex;
   justify-content: center;
   padding-top: 16px;
+  align-items: center;
 }
 #email {
   border-radius: 40px;
