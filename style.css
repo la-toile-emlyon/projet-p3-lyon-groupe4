@@ -270,9 +270,9 @@ nav {
       flex-direction: row;
       gap: 16px;
       img {
-        height: 390px;
-        width: 10%;
-        /* width: fit-content; */
+        height: 459px;
+        /* width: 10%; */
+        width: fit-content;
       }
       .column-right {
         height: 320px;
@@ -343,7 +343,7 @@ nav {
   display: flex;
   justify-content: center;
   padding-top: 16px;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
 }
 #inputformulaire2 {
@@ -359,7 +359,7 @@ nav {
   border: hidden;
   box-shadow: 0px 0px 11px -6px;
 
-  text-align: -webkit-center;
+  /* text-align: -webkit-center; */
 }
 #button {
   color: white;
@@ -559,10 +559,12 @@ footer {
   box-shadow: 0px 0px 11px -6px;
   border-radius: 5px;
   width: 80%;
+    border-radius: 25PX;
 }
 
 #divprojetsfuturs1 img {
   width: 50%;
+  border-radius: 25PX;
 }
 #divprojetsfuturs1 p {
   width: 70%;
@@ -572,6 +574,8 @@ footer {
 
 #divprojetsfuturs2 img {
   width: 50%;
+   border-radius: 25PX;
+
 }
 #divprojetsfuturs2 p {
   width: 40%;
@@ -579,11 +583,21 @@ footer {
   text-align: right;
 }
 #message {
-  margin: 10%;
+  /* margin: 10%; */
   height: 125px;
   text-align: -webkit-center;
   border-radius: 36px;
 }
 #email {
-  margin: 10%;
+    /* margin: 10%; */
+
+}
+.SectionExplication1{
+
+}p{
+  padding: 2.6%;;
+}
+
+.SectionExplication {
+    margin: 50PX;
 }
