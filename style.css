@@ -270,7 +270,7 @@ nav {
       flex-direction: row;
       gap: 16px;
       img {
-        height: 320px;
+        height: 390px;
         width: fit-content;
       }
       .column-right {
@@ -339,13 +339,11 @@ nav {
   margin-bottom: 40px;
 }
 #inputformulaire {
- display: flex
-;
-    justify-content: center;
-    padding-top: 16px;
-    align-items: center;
-    flex-direction: column;
-
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  align-items: center;
+  flex-direction: column;
 }
 #inputformulaire2 {
   display: flex;
@@ -355,11 +353,11 @@ nav {
 }
 .email {
   border-radius: 40px;
-  width: 400px;
+  width: 550px;
   height: 40px;
   border: hidden;
   box-shadow: 0px 0px 11px -6px;
-  
+
   text-align: -webkit-center;
 }
 #button {
@@ -376,7 +374,7 @@ nav {
   box-shadow: 0px 0px 11px -6px;
   flex-direction: column;
   justify-content: center;
-  padding: 140px;
+  padding: 50px;
   border-radius: 40px;
   align-items: center;
   margin-bottom: 5%;
@@ -447,10 +445,10 @@ footer {
   padding: 5%;
   gap: 20px;
 }
-#SectionPersona p{
+#SectionPersona p {
   width: 70%;
 }
-#SectionPersona img{
+#SectionPersona img {
   width: 50%;
 }
 .divpersona {
@@ -461,7 +459,7 @@ footer {
   text-align: center;
   gap: 10px;
 }
-.divpersona img{
+.divpersona img {
   box-shadow: 0px 0px 11px -6px;
 }
 #sectionformulaire {
@@ -471,44 +469,68 @@ footer {
   justify-content: center;
 }
 
-#sectionwireframe {
+#section_fonctionalités {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 5%;
 }
-.divwireframe {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 5%;
-  gap: 10px;
-  width: 100%;
-}
-.pageswireframe{
+
+#section_fonctionalités img{
   width: 80%;
+}
+#div_fonctionnalités{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  gap: 40px;
+}
+#fonctionnalité_logement {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 60px;
-  margin-top: 5%;
+  text-align: right;
+  gap: 5%;
+  width: 70%;
 }
 
-.pageswireframe img{
-  width: 30%;
-  box-shadow: 0px 0px 11px -6px;
+#fonctionnalité_logement img{
+  width: 20%;
 }
-#sectionprojetsfuturs{
+
+#fonctionalité_bien {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 5%;
+  width: 70%;
+}
+
+#fonctionalité_bien img{
+  width: 20%;
+}
+
+#fonctionalité_certif{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+  gap: 5%;
+  width: 70%;
+}
+
+#fonctionalité_certif img{
+  width: 20%;
+}
+
+#sectionprojetsfuturs {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 5%;
 }
-#divgroupprojetsfuturs{
+#divgroupprojetsfuturs {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -516,7 +538,7 @@ footer {
   padding: 5%;
 }
 
-#divprojetsfuturs1{
+#divprojetsfuturs1 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -527,7 +549,7 @@ footer {
   width: 80%;
   margin-bottom: 5%;
 }
-#divprojetsfuturs2{
+#divprojetsfuturs2 {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -538,29 +560,29 @@ footer {
   width: 80%;
 }
 
-#divprojetsfuturs1 img{
+#divprojetsfuturs1 img {
   width: 50%;
 }
-#divprojetsfuturs1 p{
+#divprojetsfuturs1 p {
   width: 70%;
   padding-right: 5%;
   text-align: left;
 }
 
-#divprojetsfuturs2 img{
+#divprojetsfuturs2 img {
   width: 50%;
 }
-#divprojetsfuturs2 p{
+#divprojetsfuturs2 p {
   width: 40%;
   padding-left: 5%;
   text-align: right;
 }
-#message{
+#message {
   margin: 10%;
-    height: 125PX;
-    text-align: -webkit-center;
-border-radius: 36PX;
+  height: 125px;
+  text-align: -webkit-center;
+  border-radius: 36px;
 }
-#email{
+#email {
   margin: 10%;
 }
