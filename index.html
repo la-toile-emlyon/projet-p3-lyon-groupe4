@@ -1,16 +1,207 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Projet - Page d'accueil</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="index.css" rel="stylesheet" type="text/css" />
-    <script src="script.js" type="text/javascript"></script>
-  </head>
 
-  <body>
-    Accueil
-    <a href="/doc.html">Documentation</a>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Projet - Page d'accueil</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Great+Vibes&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Great+Vibes&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet" />
+  <script src="script.js" type="text/javascript"></script>
+
+  <!-- font B612 TITRE -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- font B612 TITRE -->
+</head>
+
+<body>
+  <!-- Nav -->
+  <nav>
+    <!-- <img src="logoMEy.png" alt=""> -->
+    <li><a href="index.html"><img class="logo" src="logoMEy.svg" alt="Logo"></a></li>
+    <ul class="ulnav">
+      <!-- <li><a href="#hero">Accueil</a></li>
+      <li><a href="#problème">Problème</a></li>
+      <li><a href="#solution">Solution</a></li>
+      <li><a href="#contact">Contact</a></li> -->
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="doc.html">Documentation</a></li>
+    </ul>
+  </nav>
+
+  <!-- hero section -->
+  <section id="hero">
+    <!-- <img id="heroimg" src="imgmaisonhero.png" alt="Logement Insalubre  " /> -->
+    <div class="container">
+      <div class="content">
+        <h1>Appartement propre et net Sans prise de tête</h1>
+        <p>Confiez nous votre bien, on s’occupe du reste. Propreté, suivi, tranquillité.</p>
+        <a class="button-primary" href="#contactform">Nous Contacter</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!--mission-->
+  <section id="mission">
+    <h3>
+      Une mise en location simple, éthique et sûr passe par un logement rénové. 
+      Faites nous confiance pour rendre votre logement comme neuf et à moindre coût.
+    </h3>
+  </section>
+  <!-- Problème -->
+
+  <section class="problems section-light section-padding-large">
+    <div class="container">
+      <h2>Vous avez déjà vécu ça?</h2>
+      <div class="content">
+        <div class="card">
+          <img src="coutderénovation2.svg " alt="Insalubrité dans les logements" />
+          <h3>Coûts de rénovation élevés</h3>
+          <p>
+            La rénovation complète peut dépasser 25 000 €, un montant que peu de propriétaires peuvent assumer.</p>
+        </div>
+        <div class="card">
+          <img src="ComplexitéAdministrative.svg" alt="Présence de nuisibles" />
+          <h3>Complexité administrative</h3>
+          <p>
+            Les dispositifs d’aide  sont nombreux mais compliqués : critères variables, interlocuteurs multiples etc...</p>
+        </div>
+        <div class="card">
+          <img src="NormeAdministrative.svg" alt="Isolation thermique ou sonore" />
+          <h3>Normes administratives</h3>
+          <p>
+             Les normes de rénovation sont souvent complexes il est difficile pour les propriétaires de s’y retrouver.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  <!--solution -->
+  <section id="solution" class="section-padding-large">
+    <div class="container">
+      <div class="content">
+        <img src="imgsolution.svg" alt="">
+        <div class="right">
+          <H2>Les solutions proposé !</H2>
+          <div class="content-right">
+            <img src="1234bul.svg" alt="">
+            <div class="column-right">
+              <div class="Scard">
+                <h3>Verification de la salubrité du logement</h3>
+                <p>Évaluation de l’état structurel, diagnostic des moisissures, humidité et défauts de chauffage.</p>
+              </div>
+              <div class="Scard">
+
+                <h3>Montage financier pour réaliser des traveaux</h3>
+                <p>Estimation des coûts, recherche de subventions et planification budgétaire pour réhabiliter efficacement.
+                </p>
+
+              </div>
+              <div class="Scard">
+
+                <h3>Cerfication de salubrité</h3>
+                <p>Délivrance d’un certificat attestant que les espaces répondent aux normes d’hygiène et de sécurité.</p>
+
+              </div>
+              <div class="Scard">
+
+
+                <h3>Promotion du logement</h3>
+                <p>Valorisation d’un espace rénové, sain et confortable sur notre application.</p>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--"avantage" a change pour "pourquoi nous faire confiance "-->
+
+
+
+  <section id="confiance">
+    <h2>Avec M²EY c'est de l'histoire ancienne!</h2>
+    <div id="group-card-confiance">
+      <div class="card-confiance">
+        <img src="logocertif.svg" alt="">
+        <h3>Certification d’état</h3>
+        <p>La certification NF prouve que votre logement respecte des normes strictes de qualité, 
+           sécurité et fiabilité, vérifiées par des experts indépendants.</p>
+      </div>
+      <div class="card-confiance">
+        <img src="logorenov.svg" alt="">
+        <h3>Rénovation financée</h3>
+        <p> Nous vous trouvons les aides de l’État qui vous correspondent le mieux pour votre rénovation, 
+          plus de stress pour le financement.</p>
+      </div>
+      <div class="card-confiance">
+        <img src="logoloc.svg" alt="">
+        <h3>Locataires fiables</h3>
+        <p>Grâce à notre service, votre logement est loué rapidement et sans stress. Vos revenus sont assurés, 
+          et votre banquier vous remercie.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--formulaire-->
+<div id="f">
+<section class="formulaire" id="contactform">
+      <h3>Vous êtes prêt a rejoindre M²EY ?</h3>
+      <div id="inputformulaire">
+        <p>Entrez votre email</p>
+        <input type="email" name="email" id="email" class="email" placeholder="BastienEferline@gmail.com" >
+        <p>Entrez votre numero</p>
+         <input type="number" name="numero"  class="email" placeholder="06-43-...">
+         <p>Entrez votre message</p>
+          <input type="text" name="message" id="message" class="email" placeholder="message">
+       <button class="button-primary">Nous contacter</button>
+    </section>
+</div>
+  <!-- Footer -->
+
+
+
+  <footer>
+
+    <section class="footer">
+      <div class="navf">
+        <!-- <img src="logoMEy.png" alt=""> -->
+        <li><a href="index.html"><img class="logo" src="logoMEy.svg" alt="Logo"></a></li>
+        <ul class="ulnav">
+          <!-- <li><a href="#hero">Accueil</a></li>
+          <li><a href="#problème">Problème</a></li>
+          <li><a href="#solution">Solution</a></li>
+          <li><a href="#contact">Contact</a></li> -->
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="doc.html">Documentation</a></li>
+        </ul>
+        <div class="row2">copyright © 2025 tous droits réservés</div>
+      </div>
+    </section>
+
+
+  </footer>
+</body>
+
 </html>

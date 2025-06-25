@@ -3,13 +3,249 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Projet - Documentation</title>
+    <title>Projet - Page d'accueil</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="doc.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Great+Vibes&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Great+Vibes&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" type="text/javascript"></script>
+
+    <!-- font B612 TITRE -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font Encode Sans Expanded TITRE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <a href="/index.html">Accueil</a>
-    Documentation
+    <!-- Nav -->
+    <nav>
+      <!-- <img src="logoMEy.png" alt=""> -->
+      <li>
+        <a href="index.html"
+          ><img class="logo" src="logoMEy.svg" alt="Logo"
+        /></a>
+      </li>
+      <ul class="ulnav">
+        <!-- <li><a href="#hero">Accueil</a></li>
+      <li><a href="#problème">Problème</a></li>
+      <li><a href="#solution">Solution</a></li>
+      <li><a href="#contact">Contact</a></li> -->
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="doc.html">Documentation</a></li>
+      </ul>
+    </nav>
+
+    <!--HISTOIR-->
+    <h1 id="docH1">NOTRE HISTOIRE</h1>
+    <p id="doctext">
+      M²EY est une initiative de Mikail, Manel, Efe et Yanis pour faciliter la
+      rénovation de logements étudiants grâce aux aides publiques. En échange,
+      les loyers sont rendus accessibles. Plus qu’une app, M²EY incarne une
+      vision solidaire et durable du logement.
+    </p>
+
+    <!--étape-->
+
+    <section class="SectionExplication">
+      <div class="divExplication1">
+        <img src="img1documentation.svg" alt="" />
+        <section class="SectionExplication1">
+          <h1>1.</h1>
+          <p>
+            <b>Réflexion (idéation)</b> – Nous avons débuté par des séances de
+            brainstorming pour définir les besoins des propriétaires et des
+            étudiants, identifier les objectifs (certification de salubrité,
+            aides publiques, loyers étudiants)
+          </p>
+        </section>
+      </div>
+      <div class="divExplication2">
+        <section class="SectionExplication2">
+          <h1>2.</h1>
+          <p>
+            <b> Wireframes et maquettes (Figma) </b>– Nous avons esquissé la
+            structure avec des wireframes simples, avant de créer des maquettes
+            interactives sur Figma, intégrant les retours des premiers
+            utilisateurs.
+          </p>
+        </section>
+        <section>
+          <img src="img2documentation.svg" alt="" />
+        </section>
+      </div>
+      <div class="divExplication1">
+        <img src="img3documentation.svg" alt="" />
+        <section class="SectionExplication1">
+          <h1>3.</h1>
+          <p>
+            <b>Prototypage itératif et validation </b>– Après chaque itération,
+            des sessions de tests ont été organisées avec des utilisateurs
+            cibles (propriétaires, étudiants). Les feedbacks ont conduit à des
+            ajustements rapides
+          </p>
+        </section>
+      </div>
+      <!-- <div class="divExplication2">
+        <section class="SectionExplication2">
+          <h1>4.</h1>
+          <p>
+            <b>Pitch de vente</b> - Nous avons conçu un pitch clair et visuel
+            pour vendre l’idée efficacement : problème ciblé, solution concrète,
+            impact social fort. Tout est prêt pour convaincre en 5 minutes.
+          </p>
+        </section>
+        <img src="img4documentation.svg" alt="" />
+      </div> -->
+    </section>
+
+    <section id="SectionPersona">
+      <h2>Nos cibles type</h2>
+      <div class="divpersona">
+        <h3>Étudiants</h3>
+        <p>
+          Côté étudiant, leur priorité est de trouver un logement rapidement et
+          au meilleur prix. Ils souhaitent aussi, en second lieu, être rassurés
+          et avoir des avis d'autres locataires.
+        </p>
+        <img src="persona_etudiant.svg" alt="persona étudiant" />
+      </div>
+      <div class="divpersona">
+        <h3>Propriétaires</h3>
+        <p>
+          Pour les propriétaires , les besoins sont différents. ils ont besoin
+          d’être informé sur les lois et normes de location, ils ont aussi
+          besoin d’être bien informé sur l’état de leur bien avec des
+          professionnelles . Mais le plus important pour eux c’est que leur bien
+          soit loué
+        </p>
+        <img src="persona_propriétaire.svg" alt="persona propriétaire" />
+      </div>
+    </section>
+
+    <section id="section_fonctionalités">
+      <h2>Fonctionnalités</h2>
+      <img src="wireframe.svg" id="imgwireframe" alt="">
+      <h3>
+        Voici Les fonctionnalités sur les quels nous avons travaillé
+        <!-- grace à nos retours utilisateurs -->
+      </h3>
+
+      <div id="div_fonctionnalités">
+      <div id="fonctionnalité_logement">
+        <div class="div_fonctionnalité">
+          <h3>Recherche de logement</h3>
+          <p>Nos annonces sont claires, accessibles aux étudiants 
+             et mettent en avant les infos clés sur la certification.</p>
+        </div>
+        <img src="iconhome.svg" alt="">
+      </div>
+      <div id="fonctionalité_bien">
+        <div class="div_fonctionnalité">
+          <h3>Dépôt d’annonce</h3>
+          <p>Le dépôt d’annonce est pensé pour permettre aux bailleurs de publier 
+             leur bien facilement et rapidement.</p>
+        </div>
+        <img src="iconplus.svg" alt="">
+      </div>
+      <!-- <div id="fonctionalité_certif">
+        <div class="div_fonctionnalité">
+          <h3>Certification NF</h3>
+          <p>La certification valorise votre bien en identifiant les rénovations utiles. 
+             Un vrai plus pour rassurer et convaincre les futurs locataires.</p>
+        </div> -->
+        <!-- <img src="icon_certif.svg" alt="">
+      </div> -->
+      </div>
+<h2>Voici l'interface de notre application</h2>
+      <iframe
+      style="border: none;"
+      width="390"
+      height="844"
+      src="https://embed.figma.com/proto/onBfYF2SlR1sCtM4p1Uzpn/Untitled?node-id=54-1031&scaling=contain&content-scaling=fixed&page-id=54%3A912&starting-point-node-id=54%3A1031&embed-host=share&viewport=0%2C0%2C1&hide-ui=1"
+      allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="sectionprojetsfuturs">
+      <h2>Et ensuite?</h2>
+      <h3>l'Aventure M²EY ne fait que commencer</h3>
+      <div id="divgroupprojetsfuturs">
+        <div id="divprojetsfuturs1">
+          <img src="imgprojet1.svg" alt="" />
+          <p>
+            Grâce à vos retours, nous prévoyons d’ajouter la fonctionnalité
+            “vente” à la plateforme. Plusieurs propriétaires nous ont indiqué
+            que ce service correspondait à leurs besoins.
+          </p>
+        </div>
+        <div id="divprojetsfuturs2">
+          <img src="imgprojet2.svg" alt="" />
+          <p>
+            Nous avons aussi constaté que les utilisateurs souhaitent donner
+            leur avis sur les annonces. Cette fonctionnalité sera intégrée lors
+            d'une prochaine mise à jour.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  <div id="f">
+<section class="formulaire" id="contactform">
+      <h3>Vous êtes prêt a rejoindre M²EY ?</h3>
+      <div id="inputformulaire">
+        <p>Entrez votre email</p>
+        <input type="email" name="email" id="email" class="email" placeholder="BastienEferline@gmail.com" >
+        <p>Entrez votre numero</p>
+         <input type="number" name="numero"  class="email" placeholder="06-43-...">
+         <p>Entrez votre message</p>
+          <input type="text" name="message" id="message" class="email" placeholder="message">
+       <button class="button-primary">Nous contacter</button>
+    </section>
+</div>
+
+    <!--footer-->
+    <footer>
+      <section class="footer">
+        <div class="navf">
+          <!-- <img src="logoMEy.png" alt=""> -->
+          <li>
+            <a href="index.html"
+              ><img class="logo" src="logoMEy.svg" alt="Logo"
+            /></a>
+          </li>
+          <ul class="ulnav">
+            <!-- <li><a href="#hero">Accueil</a></li>
+          <li><a href="#problème">Problème</a></li>
+          <li><a href="#solution">Solution</a></li>
+          <li><a href="#contact">Contact</a></li> -->
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="doc.html">Documentation</a></li>
+          </ul>
+          <div class="row2">copyright © 2025 tous droits réservés</div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
