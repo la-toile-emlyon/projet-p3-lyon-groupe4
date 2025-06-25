@@ -271,7 +271,8 @@ nav {
       gap: 16px;
       img {
         height: 390px;
-        width: fit-content;
+        width: 10%;
+        /* width: fit-content; */
       }
       .column-right {
         height: 320px;
