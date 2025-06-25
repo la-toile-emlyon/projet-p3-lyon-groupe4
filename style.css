@@ -408,7 +408,8 @@ footer {
 }
 #doctext {
   text-align: center;
-  width: 549px;
+  width: 80%;
+  margin-bottom: 5%;
   margin: auto;
 }
 
